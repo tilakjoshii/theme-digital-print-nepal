@@ -1,0 +1,150 @@
+.cta-style-two {
+    background: #212121;
+    overflow: hidden;
+    .cta-style-two-content {
+        padding-top: 115px;
+        .title {
+            margin-bottom: 40px;
+            span,
+            h2 {
+                margin: 0;
+            }
+            span {
+                font-family: 'Pacifico';
+                font-size: 20px;
+                color: #9c5ce8;
+            }
+            h2 {
+                color: #FFFFFF;
+                font-size: 60px;
+                line-height: 60px;
+                font-weight: bold;
+            }
+        }
+        p {
+            margin: 0;
+            color: #A0A0A0;
+            font-size: 18px;
+            line-height: 36px;
+        }
+        a.thm-btn {
+            margin-top: 50px;
+        }
+    }
+}
+
+.call-to-action-one {
+    position: relative;
+    .overlay {
+        background: #dd27b7 url(../img/cta-bg-1-1.jpg) center center no-repeat fixed;
+        background-size: cover;
+        position: absolute;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 7;
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #dd27b7;
+            opacity: .9;
+        }
+    }
+    .inner-wrapper {
+        background: transparent url(../img/cta-bg-1-2.png) right center no-repeat fixed;
+        position: relative;
+        z-index: 99;
+        padding-top: 115px;
+        padding-bottom: 120px;
+    }
+    .thm-container {
+        position: relative;
+        z-index: 9;
+    }
+    .call-to-action-content {
+        ul,
+        li {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .title {
+            margin-bottom: 40px;
+            span,
+            h2 {
+                margin: 0;
+            }
+            span {
+                font-family: 'Pacifico';
+                font-size: 20px;
+                color: #212121;
+            }
+            h2 {
+                color: #FFFFFF;
+                font-size: 60px;
+                line-height: 60px;
+                font-weight: bold;
+            }
+        }
+        ul.list-box {
+            li {
+                color: #fff;
+                font-size: 18px;
+                font-weight: 500;
+                position: relative;
+                padding-left: 25px;
+                +li {
+                    margin-top: 10px;
+                }
+                i {
+                    position: absolute;
+                    top: 50%;
+                    left: 0;
+                    transform: translateY(-50%);
+                }
+            }
+        }
+        a.thm-btn {
+            margin-top: 55px;
+            &:hover {
+                background:#212121;
+            }
+        }
+    }
+}
+
+.cta-style-three {
+    background: #FFB50A url(../img/cta-bg-2-1.jpg) center center no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    span,
+    h2 {
+        margin: 0;
+    }
+    span {
+        font-family: 'Pacifico';
+        font-size: 20px;
+        color: #212121;
+    }
+    h2 {
+        color: #FFFFFF;
+        font-size: 60px;
+        line-height: 60px;
+        font-weight: bold;
+    }
+    a.thm-btn {
+        background: #212121;
+        color: #fff;
+        margin-top: 50px;
+        &:hover {
+            background: #dd27b7;
+            color: #fff;
+        }
+    }
+}

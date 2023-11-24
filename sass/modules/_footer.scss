@@ -1,0 +1,75 @@
+.footer {
+    background: #212121;
+    padding-top: 80px;
+    padding-bottom: 70px;
+    .footer-widget {
+        h3,
+        p,
+        ul,
+        li {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        p {
+        	font-size: 16px;
+        	line-height: 30px;
+        	color: #A0A0A0;
+        }
+        ul li a {
+        	color: #A0A0A0;
+        	font-size: 16px;
+        	line-height: 30px;
+        }
+        .title {
+        	margin-bottom: 36px;
+            h3 {
+                color: #FFFFFF;
+                font-weight: bold;
+                font-size: 20px;
+            }
+        }
+        &.links-widget {
+        	ul.link-list {
+        		li + li {margin-top: 4px;}
+        		a {
+        			display: block;
+        			position: relative;
+        			padding-left: 15px;
+        			transition: all .4s ease;
+        			&:before {
+        				content: '';
+        				width: 5px;
+        				height: 5px;
+        				border-radius: 50%;
+        				background: #A0A0A0;
+        				font-size: 18px;
+        				position: absolute;
+        				top: 50%;
+        				left: 0;
+        				transform: translateY(-50%);
+        				transition: all .4s ease;
+        			}
+        			&:hover {
+        				color: #dd27b7;
+        				&:before {
+        					background:#dd27b7;
+        				}
+        			}
+        		}
+        	}
+        }
+        &.contact-widget {
+        	p {line-height: 24px;}
+        	p + p {
+        		margin-top: 25px;
+        	}
+        }
+        &.explore {
+            padding-left: 40px;
+        }
+        &.services {
+            padding-left: 75px;
+        }
+    }
+}

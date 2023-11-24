@@ -1,0 +1,178 @@
+body {
+    font-family: 'Rubik';
+    color: #757575;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+a:hover,
+a:visited,
+a:focus,
+a:active {
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+.thm-container {
+    width: 100%;
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.sec-pad {
+    padding: 120px 0;
+}
+
+.p0 {
+    padding: 0 !important;
+}
+
+.pt0 {
+    padding-top: 0;
+}
+.pb0 {
+    padding-bottom: 0 !important;
+}
+.mb0 {
+    margin-bottom: 0 !important;
+}
+
+.gray-bg {
+    background:#F4F9FD;
+}
+
+.thm-btn {
+    border: none;
+    outline: none;
+    display: inline-block;
+    vertical-align: middle;
+    background:#dd27b7;
+    border-radius: 35px;
+    color: #fff;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 16px;
+    padding: 18px 69px;
+    transition: all .4s;
+    &:hover {
+        background:#fff;
+        color: #dd27b7;
+    }
+    &.yellow-bg {
+        background:#9c5ce8;
+        color: #212121;
+        &:hover {
+            background:#dd27b7;
+            color: #fff;
+        }
+    }
+}
+
+.sec-title {
+    margin-top: -8px;
+    margin-bottom: 55px;
+    span {
+        font-family: 'Pacifico';
+        color: #dd27b7;
+        font-size: 20px;
+    }
+    h3 {
+        margin: 0;
+        color: #212121;
+        font-size: 60px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    p {
+        color: #757575;
+        font-size: 20px;
+        line-height: 32px;
+        margin: 0;
+    }
+}
+
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background: #dd27b7;
+    color: #fff;
+    font-size: 17px;
+    line-height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    box-shadow: drop-shadow-converter(#000000, $angle: 90, $distance: 23px, $spread: 0, $size: 42px, $opacity: 20%);
+    transition: all .4s ease;
+    &:hover {
+        background: #9c5ce8;
+        color: #212121;
+    }
+}
+
+
+
+/*
+****
+only add this classto body
+if preloader is on
+other wise REMOVE IT.
+****
+*/
+body.active-preloader-ovh {
+    overflow: hidden;
+}
+
+.preloader {
+    background-color: #ffffff;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999999;
+    .spinner {
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -30px;
+        margin-left: -30px;
+        background-color: #dd27b7;
+        border-radius: 100%;
+        -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+        animation: sk-scaleout 1.0s infinite ease-in-out;
+    }
+
+    @-webkit-keyframes sk-scaleout {
+        0% {
+            -webkit-transform: scale(0)
+        }
+        100% {
+            -webkit-transform: scale(1.0);
+            opacity: 0;
+        }
+    }
+    @keyframes sk-scaleout {
+        0% {
+            -webkit-transform: scale(0);
+            transform: scale(0);
+        }
+        100% {
+            -webkit-transform: scale(1.0);
+            transform: scale(1.0);
+            opacity: 0;
+        }
+    }
+}
+

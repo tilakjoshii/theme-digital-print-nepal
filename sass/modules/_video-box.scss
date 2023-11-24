@@ -1,0 +1,14 @@
+.video-box {
+	position: relative;
+	.content {
+		width: 325px;
+		background:#fff;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		padding: 55px 0;
+		padding-left: 60px;
+		h3 {margin: 0;color: #212121;font-weight: bold;font-size: 24px;line-height: 30px;}
+		a.video-btn {width: 74px;height: 74px;border-radius: 50%;background:#dd27b7;color: #fff;line-height: 74px;font-size: 20px;position: absolute;top: 50%;right: -37px;transform: translateY(-50%);text-align: center;}
+	}
+}

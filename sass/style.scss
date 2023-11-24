@@ -1,0 +1,199 @@
+/***************************************************************************************************************
+||||||||||||||||||||||||||||       MASTER STYLESHEET FOR Printify             ||||||||||||||||||||||||||||||||||
+****************************************************************************************************************
+||||||||||||||||||||||||||||              TABLE OF CONTENT                  ||||||||||||||||||||||||||||||||||||
+****************************************************************************************************************
+****************************************************************************************************************
+* 1. imported styles 
+* 2. miscelnious styles 
+* 3. header styles 
+* 4. banner styles 
+* 5. welcome styles 
+* 6. what we do styles 
+* 7. brand styles 
+* 8. footer subscribe styles 
+* 9. footer styles 
+* 10. footer bottom styles 
+* 11. recent project styles 
+* 12. cta styles 
+* 13. testimonials styles 
+* 14. we belive carousel styles 
+* 15. faq section styles 
+* 16. team styles 
+* 17. services styles 
+* 18. video box styles 
+* 19. video box styles 
+* 20. contact styles 
+* 21. page title styles 
+* 22. about styles 
+* 23. blog styles 
+* 24. error 404 styles 
+* 25. pricing styles 
+* 26. sidebar styles 
+****************************************************************************************************************
+||||||||||||||||||||||||||||            End TABLE OF CONTENT                ||||||||||||||||||||||||||||||||||||
+****************************************************************************************************************/
+
+
+// math functions are not included in sass
+@import "drop-shadow-converter/mathfunctions";
+// import converter
+@import "drop-shadow-converter/drop-shadow-converter";
+// template sass helper functions
+@import "_helper-function.scss";
+
+/************************** 
+* 1. imported styles 
+***************************/
+
+@import 'modules/_imported';
+
+/************************** 
+* 2. miscelnious styles 
+***************************/
+
+@import 'modules/_miscelnious';
+
+/************************** 
+* 3. header styles 
+***************************/
+
+@import 'modules/_header';
+
+/************************** 
+* 4. banner styles 
+***************************/
+
+@import 'modules/_banner';
+
+/************************** 
+* 5. welcome styles 
+***************************/
+
+@import 'modules/_welcome';
+
+/************************** 
+* 6. what we do styles 
+***************************/
+
+@import 'modules/_what-we-do';
+
+/************************** 
+* 7. brand styles 
+***************************/
+
+@import 'modules/_brand';
+
+/************************** 
+* 8. footer subscribe styles 
+***************************/
+
+@import 'modules/_footer-subscribe';
+
+/************************** 
+* 9. footer styles 
+***************************/
+
+@import 'modules/_footer';
+
+/************************** 
+* 10. footer bottom styles 
+***************************/
+
+@import 'modules/_footer-bottom';
+
+/************************** 
+* 11. recent project styles 
+***************************/
+
+@import 'modules/_recent-project';
+
+/************************** 
+* 12. cta styles 
+***************************/
+
+@import 'modules/_cta';
+
+/************************** 
+* 13. testimonials styles 
+***************************/
+
+@import 'modules/_testi';
+
+/************************** 
+* 14. we belive carousel styles 
+***************************/
+
+@import 'modules/_we-belive-carousel';
+
+/************************** 
+* 15. faq section styles 
+***************************/
+
+@import 'modules/_faq';
+
+/************************** 
+* 16. team styles 
+***************************/
+
+@import 'modules/_team';
+
+/************************** 
+* 17. services styles 
+***************************/
+
+@import 'modules/_services';
+
+/************************** 
+* 18. video box styles 
+***************************/
+
+@import 'modules/_video-box';
+
+/************************** 
+* 19. video box styles 
+***************************/
+
+@import 'modules/_design-guideline';
+
+/************************** 
+* 20. contact styles 
+***************************/
+
+@import 'modules/_contact';
+
+/************************** 
+* 21. page title styles 
+***************************/
+
+@import 'modules/_page-title';
+
+/************************** 
+* 22. about styles 
+***************************/
+
+@import 'modules/_about';
+
+/************************** 
+* 23. blog styles 
+***************************/
+
+@import 'modules/_blog';
+
+/************************** 
+* 24. error 404 styles 
+***************************/
+
+@import 'modules/_error-404';
+
+/************************** 
+* 25. pricing styles 
+***************************/
+
+@import 'modules/_pricing';
+
+/************************** 
+* 26. sidebar styles 
+***************************/
+
+@import 'modules/_sidebar';

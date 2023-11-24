@@ -1,0 +1,33 @@
+.welcome-section {
+    background: #F5F6FA;
+    .welcome-content {
+        padding-left: 56px;
+        p {
+            margin: 0;
+        }
+        .title {
+            margin-bottom: 38px;
+            p,
+            h3 {
+                margin: 0;
+            }
+            p {
+                color: #dd27b7;
+                font-family: 'Pacifico';
+                font-size: 20px;
+            }
+            h3 {
+                font-size: 60px;
+                font-weight: bold;
+                color: #212121;
+            }
+        }
+        p {
+            color: #757575;
+            +p {
+                margin-top: 20px;
+            }
+        }
+        a.thm-btn {margin-top: 55px;}
+    }
+}

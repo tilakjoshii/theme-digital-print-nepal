@@ -1,0 +1,9 @@
+.brand-carousel-wrapper {
+	background:#dd27b7;
+	padding: 126px 0;
+	.brand-carousel {text-align: center;
+		img {opacity: 0.6;transition: all .4s;
+			&:hover {opacity: 1;}
+		}
+	}
+}

@@ -1,0 +1,35 @@
+.footer-subscribe {
+	background:#212121;
+	.thm-container {
+		border-bottom: 1px solid #2e2e2e;
+		padding-left: 0;padding-right: 0;
+		max-width: 1170px;
+		padding-top: 73px;
+		padding-bottom: 80px;
+	}
+	.title {
+		text-align: center;
+		span, h3 {margin: 0;}
+		span {font-family: 'Pacifico';color: #dd27b7;font-size: 16px;}
+		h3 {font-size: 40px;font-weight: bold;color: #FFFFFF;margin-top: 4px;}
+	}
+	form.subscribe-form {
+		text-align: center;
+		margin-top: 50px;
+		input {
+			border: none;outline: none;
+			min-width: 615px;
+			height: 68px;
+			background:#2E2E2E;
+			border-radius: 35px;
+			color: rgba(#FFFFFF, .6);
+			padding-left: 50px;	
+			margin-right: 10px;
+			display: inline-block;
+			text-align: left;
+			@include placeholder () {
+				color: rgba(#FFFFFF, .6);
+			}
+		}
+	}
+}

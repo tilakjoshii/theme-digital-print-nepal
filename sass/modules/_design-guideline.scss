@@ -1,0 +1,67 @@
+.design-guideline {
+	background:#F5F6FA;
+	padding: 50px 60px;
+	margin-bottom: 30px;
+	.guide-content {
+		h3 {color: #212121;font-size: 24px;line-height: 32px;font-weight: bold; margin: 0;margin-bottom: 30px;}
+		ul.list-box {
+			&, li {margin: 0;padding: 0;list-style: none;}
+			li {
+				font-size: 18px;
+				color: #757575;
+				position: relative;
+    			padding-left: 15px;
+    			transition: all .4s ease;
+    			&:before {
+    				content: '';
+    				width: 5px;
+    				height: 5px;
+    				border-radius: 50%;
+    				background: #dd27b7;
+    				font-size: 18px;
+    				position: absolute;
+    				top: 50%;
+    				left: 0;
+    				transform: translateY(-50%);
+    				transition: all .4s ease;
+    			}
+				span {color: #212121;}
+			}
+		}
+	}
+	.version-row {margin-top: -15px;}
+	.single-version {text-align: center;
+		margin-top: 15px;
+		.version {
+			width: 63px;
+			height: 63px;
+			border: 2px solid #1BA0E0;
+			border-radius: 50%;
+			margin-left: auto;margin-right: auto;
+			display: block;
+			padding: 15px 0;
+			transition: all .4s;
+			span {display: block;color: #1BA0E0;font-size: 14px;line-height: 1em;font-weight: 500;transition: all .4s;}
+			i {font-size: 16px;color: #1BA0E0;line-height: 1em;display: block;margin-top: 3px;transition: all .4s;}
+			&:hover {background:#1BA0E0;
+				span, i {color: #fff !important;}
+			}
+			&.ai {
+				&:hover {background:#ED773E;}
+				border-color: #ED773E;
+				i, span {color: #ED773E;}
+			}
+			&.indesign {
+				&:hover {background:#E6498F;}
+				border-color: #E6498F;
+				i, span {color: #E6498F;}
+			}
+			&.jpg {
+				&:hover {background:#456E7F;}
+				border-color: #456E7F;
+				i, span {color: #456E7F;}
+			}
+		}
+		h4 {color: #757575;font-size: 14px;font-weight: normal;}
+	}
+}

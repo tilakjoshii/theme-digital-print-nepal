@@ -1,0 +1,326 @@
+@font-face {
+  font-family: 'printify-icon';
+  src:  url('fonts/printify-icon.eot?hce66p');
+  src:  url('fonts/printify-icon.eot?hce66p#iefix') format('embedded-opentype'),
+    url('fonts/printify-icon.ttf?hce66p') format('truetype'),
+    url('fonts/printify-icon.woff?hce66p') format('woff'),
+    url('fonts/printify-icon.svg?hce66p#printify-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="printify-icon-"], [class*=" printify-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'printify-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.printify-icon-artboard:before {
+  content: "\e900";
+}
+.printify-icon-big-bag-with-handles:before {
+  content: "\e901";
+}
+.printify-icon-big-box:before {
+  content: "\e902";
+}
+.printify-icon-big-brochure:before {
+  content: "\e903";
+}
+.printify-icon-big-clip:before {
+  content: "\e904";
+}
+.printify-icon-big-folder:before {
+  content: "\e905";
+}
+.printify-icon-big-mug:before {
+  content: "\e906";
+}
+.printify-icon-big-paint-roller:before {
+  content: "\e907";
+}
+.printify-icon-billboard-with-text:before {
+  content: "\e908";
+}
+.printify-icon-blank-paper:before {
+  content: "\e909";
+}
+.printify-icon-bottle-of-glue:before {
+  content: "\e90a";
+}
+.printify-icon-brochure-folded:before {
+  content: "\e90b";
+}
+.printify-icon-cd-box:before {
+  content: "\e90c";
+}
+.printify-icon-cello-tape:before {
+  content: "\e90d";
+}
+.printify-icon-chromatic-circle:before {
+  content: "\e90e";
+}
+.printify-icon-circular-sticker:before {
+  content: "\e90f";
+}
+.printify-icon-classic-folder:before {
+  content: "\e910";
+}
+.printify-icon-classic-stappler:before {
+  content: "\e911";
+}
+.printify-icon-closed-book:before {
+  content: "\e912";
+}
+.printify-icon-cmyk-circles:before {
+  content: "\e913";
+}
+.printify-icon-computer-monitor-back-view:before {
+  content: "\e914";
+}
+.printify-icon-continuous-feed-paper:before {
+  content: "\e915";
+}
+.printify-icon-crop-symbol:before {
+  content: "\e916";
+}
+.printify-icon-cube-template:before {
+  content: "\e917";
+}
+.printify-icon-cutter-with-lines:before {
+  content: "\e918";
+}
+.printify-icon-drawing-pens:before {
+  content: "\e919";
+}
+.printify-icon-dropper-with-liquid:before {
+  content: "\e91a";
+}
+.printify-icon-empty-box-open:before {
+  content: "\e91b";
+}
+.printify-icon-envelope-back-side:before {
+  content: "\e91c";
+}
+.printify-icon-fabric-paint:before {
+  content: "\e91d";
+}
+.printify-icon-first-printer:before {
+  content: "\e91e";
+}
+.printify-icon-fountain-pen:before {
+  content: "\e91f";
+}
+.printify-icon-glue-stick:before {
+  content: "\e920";
+}
+.printify-icon-hanging-billboard:before {
+  content: "\e921";
+}
+.printify-icon-inclilned-paint-brush:before {
+  content: "\e922";
+}
+.printify-icon-inclined-book:before {
+  content: "\e923";
+}
+.printify-icon-inclined-eraser:before {
+  content: "\e924";
+}
+.printify-icon-inclined-lead:before {
+  content: "\e925";
+}
+.printify-icon-inclined-marker:before {
+  content: "\e926";
+}
+.printify-icon-inclined-pen:before {
+  content: "\e927";
+}
+.printify-icon-inclined-pencil:before {
+  content: "\e928";
+}
+.printify-icon-inclined-pendrive:before {
+  content: "\e929";
+}
+.printify-icon-ink-cartirdge:before {
+  content: "\e92a";
+}
+.printify-icon-ink-drops:before {
+  content: "\e92b";
+}
+.printify-icon-ink-level:before {
+  content: "\e92c";
+}
+.printify-icon-inkwell:before {
+  content: "\e92d";
+}
+.printify-icon-letter-t-on-rectangle:before {
+  content: "\e92e";
+}
+.printify-icon-long-envelope:before {
+  content: "\e92f";
+}
+.printify-icon-magnifier-len:before {
+  content: "\e930";
+}
+.printify-icon-milk-box:before {
+  content: "\e931";
+}
+.printify-icon-newspaper-folded:before {
+  content: "\e932";
+}
+.printify-icon-notebook-with-rings:before {
+  content: "\e933";
+}
+.printify-icon-notepad-with-text:before {
+  content: "\e934";
+}
+.printify-icon-office-photocopier:before {
+  content: "\e935";
+}
+.printify-icon-office-scanner:before {
+  content: "\e936";
+}
+.printify-icon-old-camera:before {
+  content: "\e937";
+}
+.printify-icon-old-printer:before {
+  content: "\e938";
+}
+.printify-icon-one-pine:before {
+  content: "\e939";
+}
+.printify-icon-open-book:before {
+  content: "\e93a";
+}
+.printify-icon-open-book-1:before {
+  content: "\e93b";
+}
+.printify-icon-paint-can-open:before {
+  content: "\e93c";
+}
+.printify-icon-pantone:before {
+  content: "\e93d";
+}
+.printify-icon-paper-drill:before {
+  content: "\e93e";
+}
+.printify-icon-paper-guillotine:before {
+  content: "\e93f";
+}
+.printify-icon-paper-pad:before {
+  content: "\e940";
+}
+.printify-icon-paper-roll:before {
+  content: "\e941";
+}
+.printify-icon-paper-roll-1:before {
+  content: "\e942";
+}
+.printify-icon-paper-tray:before {
+  content: "\e943";
+}
+.printify-icon-pencil-and-ruler-crossed:before {
+  content: "\e944";
+}
+.printify-icon-pencil-box:before {
+  content: "\e945";
+}
+.printify-icon-pencil-can:before {
+  content: "\e946";
+}
+.printify-icon-pencil-sharpener:before {
+  content: "\e947";
+}
+.printify-icon-press:before {
+  content: "\e948";
+}
+.printify-icon-printer-without-paper:before {
+  content: "\e949";
+}
+.printify-icon-printing-document:before {
+  content: "\e94a";
+}
+.printify-icon-printing-text:before {
+  content: "\e94b";
+}
+.printify-icon-print-mark:before {
+  content: "\e94c";
+}
+.printify-icon-print-mark-1:before {
+  content: "\e94d";
+}
+.printify-icon-protactor-measuring:before {
+  content: "\e94e";
+}
+.printify-icon-recycling-sign:before {
+  content: "\e94f";
+}
+.printify-icon-ring-calendar:before {
+  content: "\e950";
+}
+.printify-icon-road-billboard:before {
+  content: "\e951";
+}
+.printify-icon-rubber-stamp:before {
+  content: "\e952";
+}
+.printify-icon-school-compass:before {
+  content: "\e953";
+}
+.printify-icon-scissors-and-cutout-lines:before {
+  content: "\e954";
+}
+.printify-icon-shopping-paper-bag:before {
+  content: "\e955";
+}
+.printify-icon-size-square:before {
+  content: "\e956";
+}
+.printify-icon-stapler:before {
+  content: "\e957";
+}
+.printify-icon-staple-remover:before {
+  content: "\e958";
+}
+.printify-icon-street-bin:before {
+  content: "\e959";
+}
+.printify-icon-tablet-with-pen:before {
+  content: "\e95a";
+}
+.printify-icon-three-pins:before {
+  content: "\e95b";
+}
+.printify-icon-transform-square:before {
+  content: "\e95c";
+}
+.printify-icon-t-shirt-with-square:before {
+  content: "\e95d";
+}
+.printify-icon-two-crayons:before {
+  content: "\e95e";
+}
+.printify-icon-vector-lines:before {
+  content: "\e95f";
+}
+.printify-icon-vinyl-printer:before {
+  content: "\e960";
+}
+.printify-icon-white-out:before {
+  content: "\e961";
+}
+.printify-icon-white-sheets:before {
+  content: "\e962";
+}
+.printify-icon-wrapped-package:before {
+  content: "\e963";
+}

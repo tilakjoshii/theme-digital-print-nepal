@@ -1,0 +1,70 @@
+
+/* 
+Theme Name: Digital Print Nepal
+Author: Neem Infosys
+Description: The official tech comapny theme by <a href="https://neeminfosys.com/">Neem Infosys </>
+Version: 1.0.0
+*/
+.mb2px_only{
+    margin-bottom: 2px!important;
+}
+.contact-section .contact-form input, .contact-section .contact-form textarea {
+    margin-bottom: 0px;
+}
+
+.hero_image{
+    height: 600px;
+    width: 100%;
+}
+.service_list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.hero_image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+} 
+.custom_padding{
+    padding: 10px 30px;
+}
+.read_more_btn{
+   background: #9c5ce8;
+   color: #fff;
+   padding: 10px 16px;
+   border-radius: 25px;
+   font-size: 16px;
+   margin-top: 20px!important;
+}
+.read_more_btn:hover{
+    color: #eee;
+    background: #ae6dfd;
+}
+
+
+@media screen and (max-width: 768px){
+    .hero_image{
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .hero_image{
+        height: 360px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .hero_image{
+        height: 320px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .hero_image{
+        height: 280px;
+    }
+}
